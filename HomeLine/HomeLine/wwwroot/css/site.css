@@ -1,0 +1,166 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    /* bottom: 0;*/
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+    /* height: 25vh;*/
+    border-radius: 15px 15px 0px 0px;
+}
+
+/*------------------------------------------------------------------ Here ------------------------------------------------------------------*/
+
+.bg-green {
+    background-color: #006665;
+}
+
+.bg-gray {
+    background-color: #F7FBFB;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+#sectionOne {
+    min-height: 60vh;
+}
+
+#sectionTwo {
+    border-radius: 80px 0px 80px 0px;
+}
+
+.opacity {
+    opacity: .6;
+}
+
+#interior {
+    border-radius: 80px 80px 0 80px;
+    background-image: url('/img/interior-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-consultation {
+    background-color: #FF8473;
+    border-radius: 25px;
+}
+
+.btn-signup {
+    width: 7em;
+    background-color: #CEEEF3;
+    border-radius: 20px;
+}
+
+.btn-submit {
+    width: 10em;
+    background-color: #FF8473;
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#melbourne {
+    border-radius: 80px 80px 80px 0px;
+    background-image: url('/img/melbourne.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-footer {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    font-weight: 100;
+    font-size: small;
+}
+
+.btn-email {
+    background-color: #027978;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.f-400 {
+    font-weight: 400;
+}
+
+.break-text {
+    white-space: pre-wrap;
+}
